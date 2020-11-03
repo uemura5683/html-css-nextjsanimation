@@ -1,0 +1,199 @@
+/**************
+reset
+**************/
+body, div, span, ul, li {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+  }
+  body {
+    font-family: 'Open Sans', sans-serif;  
+  }
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+  
+  
+  /**************
+  content
+  **************/
+  #content {
+    width: 495px;
+    overflow: hidden;
+    position: absolute;
+    top: 110px;
+    left: 721px;
+    height: 296px;
+  }
+  .next__txt__big {
+    position: relative;
+  }
+  .next__n {
+    position: absolute;
+    width: 157px;
+    height: 220px;
+    top: 76px;
+    left: 0;
+  }
+  .next__n * {
+    background-color: black;
+    position: absolute;
+  }
+  .next__n--one {
+    width: 8px;
+    height: 139px;
+    top: 0;
+    left: 0;
+  }
+  .next__n--one:after {
+    content: '';
+    background-color: white;
+    top: -14px;
+    left: 0;
+    position: absolute;
+    width: 10px;
+    height: 13px;
+    z-index: 1000;
+  }
+  .next__n--two {
+    top: -37px;
+    left: 76px;
+    transform: rotate(-35deg);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 290px 4px 0 4px;
+    border-color: black transparent transparent transparent;
+    z-index: 100;
+    background-color: transparent;
+  }
+  .next__e {
+    position: absolute;
+    top: 76px;
+    left: 117px;
+    width: 93px;
+    height: 139px;
+  }
+  .next__e * {
+    background-color: black;
+    position: absolute;
+  }
+  .next__e--one {
+    width: 8px;
+    height: 139px;
+    top: 0;
+    left: 0;
+  }
+  .next__e--two {
+    width: 93px;
+    height: 8px;
+    top: 0;
+    left: 0;
+  }
+  .next__e--three {
+    width: 89px;
+    height: 8px;
+    top: 62px;
+    left: 0;
+  }
+  .next__e--four {
+    width: 93px;
+    height: 8px;
+    top: 131px;
+    left: 0;
+  }
+  
+  .next__x {
+    position: absolute;
+    top: 0;
+    left: 219px;
+    width: 163px;
+    height: 220px;
+  }
+  .next__x * {
+    background-color: black;
+    position: absolute;
+  }
+  .next__x--one {
+    width: 8px;
+    height: 179px;
+    top: 57px;
+    left: 50px;
+    transform: rotate(-36deg);
+  }
+  .next__x--two {
+    top: -37px;
+    left: 75px;
+    transform: rotate(-144deg);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 290px 4px 0 4px;
+    border-color: black transparent transparent transparent;
+    z-index: 100;
+    background-color: transparent;
+  }
+  .next__x--one:before, .next__x--one:after, .next__x--two:before, .next__x--two:after {
+    content: '';
+  }
+  .next__x--one:before {
+      content: '';
+      background-color: white;
+      top: -8px;
+      left: 0;
+      position: absolute;
+      width: 20px;
+      height: 13px;
+      z-index: 1000;
+      transform: rotate(36deg);
+  }
+  .next__x--one:after {}
+  .next__x--two:before {}
+  
+  .next__t {}
+  .next__t * {
+    background-color: black;  
+  }
+  .next__t--one {}
+  .next__t--two {}
+  
+  .next__txt__small {}
+  
+  .next__dot * {
+    background-color: black;  
+  }
+  .next__dot {}
+  .next__dot--one {}
+  
+  .next__j {}
+  .next__j * {
+    background-color: black;  
+  }
+  .next__j--one {}
+  .next__j--two {}
+  
+  .next__s {}
+  .next__s * {
+    background-color: black;  
+  }
+  .next__s--one {}
+  .next__s--two {}
+  .next__s--three {}
+  
+  @keyframes n_animate { 
+  }
+  @keyframes e_animate { 
+  }
+  @keyframes x_animate { 
+  }
+  @keyframes t_animate { 
+  }
+  @keyframes dot_animate { 
+  }
+  @keyframes j_animate { 
+  }
+  @keyframes s_animate { 
+  }
