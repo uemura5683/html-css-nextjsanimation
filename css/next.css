@@ -60,12 +60,12 @@ body, div, span, ul, li {
   }
   .next__n--two {
     top: -37px;
-    left: 76px;
+    left: 74px;
     transform: rotate(-35deg);
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 290px 4px 0 4px;
+    border-width: 290px 5px 0 5px;
     border-color: black transparent transparent transparent;
     z-index: 100;
     background-color: transparent;
@@ -126,12 +126,12 @@ body, div, span, ul, li {
   }
   .next__x--two {
     top: -37px;
-    left: 75px;
+    left: 70px;
     transform: rotate(-144deg);
     width: 0;
     height: 0;
     border-style: solid;
-    border-width: 290px 4px 0 4px;
+    border-width: 299px 6px 0 6px;
     border-color: black transparent transparent transparent;
     z-index: 100;
     background-color: transparent;
@@ -150,10 +150,36 @@ body, div, span, ul, li {
       z-index: 1000;
       transform: rotate(36deg);
   }
-  .next__x--one:after {}
-  .next__x--two:before {}
+  .next__x--one:after {
+    content: '';
+    background-color: white;
+    top: 178px;
+    left: -17px;
+    position: absolute;
+    width: 40px;
+    height: 22px;
+    z-index: 1000;
+    transform: rotate(36deg);
+}
+  .next__x--two:after {
+    content: '';
+    background-color: white;
+    top: -304px;
+    left: -17px;
+    position: absolute;
+    width: 40px;
+    height: 22px;
+    z-index: 1000;
+    transform: rotate(-36deg);
+  }
   
-  .next__t {}
+  .next__t {
+    position: absolute;
+    top: 76px;
+    left: 332px;
+    width: 108px;
+    height: 140px;
+}
   .next__t * {
     background-color: black;  
   }
