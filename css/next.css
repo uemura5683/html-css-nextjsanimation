@@ -9,12 +9,6 @@ div, span, ul, li {
     font: inherit;
     vertical-align: baseline;
 }
-body {
-    font-family: 'Open Sans', sans-serif;  
-}
-  *, *::before, *::after {
-    box-sizing: border-box;
-}
 /**************
 content
 **************/
