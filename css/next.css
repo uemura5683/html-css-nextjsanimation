@@ -16,9 +16,10 @@ content
     width: 495px;
     overflow: hidden;
     position: absolute;
-    top: 110px;
-    left: 721px;
+    top: 50%;
+    left: 50%;
     height: 296px;
+    transform: translateY(-50%) translateX(-50%);
 }
 .next__txt__big {
     position: absolute;
@@ -256,12 +257,12 @@ content
     position: absolute;
 }
 .next__s--one:before {
-    top: -3px;
-    left: 0;
+    top: -8px;
+    left: 1px;
     background-color: transparent;
     content: "";
-    width: 22px;
-    height: 22px;
+    width: 14px;
+    height: 18px;
     position: absolute;
     border-top: 5px solid #000;
     border-right: 5px solid transparent;
@@ -291,12 +292,12 @@ content
     position: absolute;
 }
 .next__s--two:before {
-    top: -9px;
-    left: 0px;
+    top: -10px;
+    left: -3px;
     background-color: transparent;
     content: "";
-    width: 22px;
-    height: 22px;
+    width: 14px;
+    height: 18px;
     position: absolute;
     border-top: 5px solid #000;
     border-right: 5px solid transparent;
