@@ -36,24 +36,28 @@ content
     left: 0;
 }
 .next__n * {
-    background-color: black;
     position: absolute;
+    background-color: black;
 }
 .next__n--one {
     width: 8px;
     height: 139px;
     top: 0;
     left: 0;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
 }
 .next__n--one:after {
     content: '';
     background-color: white;
     top: -14px;
-    left: 0;
+    left: -1px;
     position: absolute;
     width: 10px;
     height: 13px;
     z-index: 1000;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
 }
 .next__n--two {
     top: -37px;
@@ -66,6 +70,8 @@ content
     border-color: black transparent transparent transparent;
     z-index: 100;
     background-color: transparent;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
 }
 .next__e {
     position: absolute;
@@ -131,6 +137,8 @@ content
     border-color: black transparent transparent transparent;
     z-index: 100;
     background-color: transparent;
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
 }
 .next__x--one:before, .next__x--one:after, .next__x--two:before, .next__x--two:after {
     content: '';
@@ -203,8 +211,6 @@ content
     background-color: black;
     position: absolute;
 }
-.next__dot {
-}
 .next__dot--one {
     width: 6px;
     height: 6px;
@@ -261,7 +267,7 @@ content
     left: 1px;
     background-color: transparent;
     content: "";
-    width: 14px;
+    width: 13px;
     height: 18px;
     position: absolute;
     border-top: 5px solid #000;
@@ -270,6 +276,8 @@ content
     border-left: 5px solid transparent;
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     transform: rotate(-135deg);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
 }
 .next__s--one:after {
     content: '';
@@ -305,6 +313,8 @@ content
     border-left: 5px solid transparent;
     border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
     transform: rotate(45deg);
+    -webkit-backface-visibility: hidden;
+            backface-visibility: hidden;
 }
 .next__s--two:after {
     content: '';
