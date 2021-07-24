@@ -6,6 +6,9 @@ div{
     padding: 0;
     border: 0;
 }
+*::before, *::after{
+    content: '';  
+}
 /**************
 content
 **************/
@@ -94,6 +97,15 @@ content
     animation-fill-mode: forwards;
     animation-iteration-count: 1;
     z-index: -1;
+}
+.next__n--two:before {
+    background: white;
+    top: -294px;
+    left: -3px;
+    position: absolute;
+    width: 11px;
+    height: 16px;
+    transform: rotate(35deg);
 }
 @keyframes next__n--two {
     0%   { opacity: 0; border-width: 0 0px 0 0px; top: 0px; left: 0px;}
@@ -210,11 +222,7 @@ content
     0%   { opacity: 0; border-width: 0px 0px 0px 0px; top: 0; left: 70px;}
     100% { opacity: 1; border-width: 299px 6px 0 6px; top: -37px; left: 70px; }
 }
-.next__x--one:before, .next__x--one:after, .next__x--two:before, .next__x--two:after {
-    content: '';
-}
 .next__x--one:before {
-    content: '';
     background-color: white;
     top: -8px;
     left: 0;
@@ -225,7 +233,6 @@ content
     transform: rotate(36deg);
 }
 .next__x--one:after {
-    content: '';
     background-color: white;
     top: 178px;
     left: -17px;
@@ -236,7 +243,6 @@ content
     transform: rotate(36deg);
 }
 .next__x--two:after {
-    content: '';
     background-color: white;
     top: -304px;
     left: -17px;
@@ -334,7 +340,6 @@ content
     100% { opacity: 1; height: 21px; }
 }
 .next__j--two:before {
-    content: '';
     width: 18px;
     height: 0px;
     top: 22px;
@@ -351,7 +356,6 @@ content
     100% { opacity: 1; height: 10px; }
 }
 .next__j--two:after {
-    content: '';
     width: 8px;
     height: 6px;
     top: 22px;
@@ -368,7 +372,6 @@ content
     position: absolute;
 }
 .next__s--one {
-    content: '';
     width: 22px;
     height: 0px;
     top: 0px;
@@ -388,7 +391,6 @@ content
     top: -8px;
     left: 1px;
     background-color: transparent;
-    content: "";
     width: 13px;
     height: 0px;
     position: absolute;
@@ -409,7 +411,6 @@ content
     100% { opacity: 1; border-top: 5px solid #000; height: 18px; }
 }
 .next__s--one:after {
-    content: '';
     width: 12px;
     height: 5px;
     top: 5px;
@@ -419,7 +420,6 @@ content
     position: absolute;
 }
 .next__s--two {
-    content: '';
     width: 22px;
     height: 0px;
     top: 23px;
@@ -439,7 +439,6 @@ content
     top: -10px;
     left: -3px;
     background-color: transparent;
-    content: "";
     width: 14px;
     height: 0px;
     position: absolute;
@@ -460,7 +459,6 @@ content
     100% { opacity: 1; border-top: 5px solid #000; height: 18px; }
 }
 .next__s--two:after {
-    content: '';
     width: 12px;
     height: 5px;
     top: 0px;
